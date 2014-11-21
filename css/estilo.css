@@ -1,0 +1,37 @@
+/* Estilo do Projeto */
+body {
+	margin: 0px;
+	background-color: #AADDAA;
+	font-family: Arial, Verdana, sans-serif;
+}
+header {
+	border-bottom: 1px solid black;
+	padding: 1em;
+}
+footer {
+	padding: 1em;
+	border-top: 1px solid black;
+	text-align: center;
+}
+section#principal {
+	background-color: #FFFFFF;
+	padding: 2em;
+}
+table#lista {
+	width: 50vw;
+	margin: auto;
+}
+table#lista th {
+	background-color: #EEEEEE;
+}
+table#lista td, table#lista th {
+	border: 1px solid #EAEAEA;
+	text-align: center;
+}
+nav ul {
+	padding-left: 0px;
+}
+nav ul li {
+	display: inline-block;
+	margin-right: 1em;
+}
