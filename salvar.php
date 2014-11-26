@@ -13,6 +13,8 @@ if($_POST){
 		$stmt = $conn->prepare($sql);
 		$stmt->bind_param('s',$nome);
 	}	
+} else {
+	die('Dados inválidos');
 }
 ?>
 <?php require_once "header.inc.php"; ?>

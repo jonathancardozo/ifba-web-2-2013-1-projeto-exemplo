@@ -6,6 +6,8 @@ if(isset($_GET['id'])){
 	$sql = "DELETE FROM pessoas WHERE id = ?";
 	$stmt = $conn->prepare($sql);
 	$stmt->bind_param('i',$id);
+} else {
+	die("Preciso do ID do elemento.");
 }
 ?>
 <?php require_once "header.inc.php"; ?>
